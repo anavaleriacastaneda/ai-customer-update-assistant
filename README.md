@@ -31,6 +31,17 @@ It then helps structure:
 
 The AI is used to organize information and create a first draft. A person reviews the output, checks the underlying information, and makes the final decision before anything is shared with a customer.
 
+## How I built it
+
+I built this as a small prototype to explore a practical use case for AI in customer-facing operations.
+
+1. **Identified the problem:** Customer updates often require pulling together information from different sources and turning it into a clear message.
+2. **Defined the inputs:** I listed the operational details that can affect a shipment update, such as location, ETA, available driving time, customer constraints, and known issues.
+3. **Designed the workflow:** I created a reusable prompt that asks AI to organize the information, identify risks and missing details, recommend next steps, and draft a customer-facing update.
+4. **Tested the workflow:** I used a fictional shipment scenario to see whether the output was useful, clear, and actionable.
+5. **Added human review:** The workflow is intentionally designed so that AI provides structure and a first draft, while a person verifies the information and makes the final decision.
+6. **Documented the result:** I included the prompt, example input, and example output so the process can be reviewed and reused.
+
 ## Example
 
 See the example files in [`examples/`](examples/):
